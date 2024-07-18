@@ -1,0 +1,327 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Section Styles */
+section {
+    padding: 20px 0;
+}
+
+section img, section video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Home Section */
+#home {
+    background: #e0f2f1;
+    color: #004d40;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#home h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#home img {
+    border-radius: 8px;
+}
+
+/* About Section */
+#about {
+    background: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#about img {
+    border-radius: 8px;
+}
+
+/* Events Section */
+#events {
+    background: #f1f8e9;
+    color: #33691e;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#events img {
+    border-radius: 8px;
+}
+
+/* Artists Section */
+#artists {
+    background: #ffffff;
+    color: #333;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#artists img {
+    border-radius: 8px;
+}
+
+/* Support Section */
+#support {
+    background: #dcedc8;
+    color: #1b5e20;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#support ul {
+    list-style: none;
+    padding: 0;
+}
+
+#support ul li {
+    margin: 10px 0;
+}
+
+#support a.btn {
+    display: inline-block;
+    background: #1b5e20;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#support img {
+    border-radius: 8px;
+}
+
+/* Media Gallery Section */
+#media {
+    background: #ffffff;
+    color: #333;
+    padding: 40px 0;
+    font-family: Arial, sans-serif; /* Ensure the font remains consistent */
+    text-align: center; /* Center align text */
+}
+
+#media h2 {
+    color: #333; 
+    margin-bottom: 20px; /* Space below heading */
+}
+
+#media .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+#media img, #media video {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures images cover the area without stretching */
+}
+
+#media p {
+    color: #333; 
+    margin: 10px 0; /* Space around paragraph text */
+}
+
+
+/* Blog Section */
+#blog {
+    background: #e8f5e9;
+    color: #1b5e20;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#blog .blog-posts {
+    text-align: center;
+}
+
+#blog article {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+#contact {
+    background: #ffffff;
+    color: #333;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #f1f8e9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact button {
+    background: #1b5e20;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background: #2e7d32;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #1de9b6;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Donation Section */
+#donate {
+    background: #e0f7fa;
+    color: #006064;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#donate h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#donate p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#donate form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#donate label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#donate li{
+    list-style: none;
+}
+
+#donate input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#donate button {
+    background: #006064;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#donate button:hover {
+    background: #004d40;
+}
+
+#donate img {
+    border-radius: 8px;
+    margin-top: 20px;
+}
