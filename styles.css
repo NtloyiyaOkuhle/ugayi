@@ -112,6 +112,47 @@ section img, section video {
     text-align: center;
 }
 
+.artists .container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.special-performance, .performer, .featuring {
+    margin: 20px 0;
+}
+.special-performance h3, .performer h3, .featuring h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #2E86C1;
+    font-size: 24px;
+}
+.special-performance p, .performer p, .featuring p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.special-performance p span, .performer p span, .featuring p span {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.special-performance p span {
+    background: #FAD7A0;
+    font-weight: bold;
+    color: #D35400;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.performer p span {
+    background: #A9CCE3;
+    color: #21618C;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.featuring p span {
+    background: #D5DBDB;
+    color: #424949;
+    font-style: italic;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
 #artists img {
     border-radius: 8px;
 }
