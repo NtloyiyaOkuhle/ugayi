@@ -112,7 +112,7 @@ section img, section video {
     text-align: center;
 }
 
-.artists .container {
+#artists .container {
     text-align: center;
     font-family: Arial, sans-serif;
 }
